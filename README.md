@@ -1,14 +1,14 @@
 # 工具数据库分库工具包
 
+## 介绍
+
+通过定义占位符实现gorm的分库，可以实现不通租户不通数据库的效果，自动切换db
+
 ## 安装使用
 
 ```shell
 go get github.com/chenyingqiao/gorm-tenant-library
 ```
-
-## 示例demo
-
-https://git.myscrm.cn/tools/gorm-driver-test
 
 ## 初始化DB
 
